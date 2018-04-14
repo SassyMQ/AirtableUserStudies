@@ -1,0 +1,336 @@
+{
+    "id": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+    "name": "AirtableUserStudies",
+    "order" : [],
+    "folders": [
+            
+                    
+                    
+                    
+        {
+			"id": "30140980-cb75-44e1-82af-2fd59ad67e68",
+			"name": "Persons",
+			"folders_order": [],
+			"owner": "1060189",
+            "order" : [
+                "6c1af6d3-0682-45d7-a2c6-8734d847f7ed",
+                "671322b1-92dc-4a0e-abd8-d23b4f17d3c7",
+                "ac53d550-3c6a-4e3c-92fd-c3d1bcf9699f",
+                "403e77c7-c6e7-4e3c-8cd6-53bb15942513"
+            ],
+			"collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b"
+		},
+        
+                    
+                    
+                    
+        {
+			"id": "0905862c-134a-4a41-a93c-1f0d2c2a5ba7",
+			"name": "Feedbacks",
+			"folders_order": [],
+			"owner": "1060189",
+            "order" : [
+                "c326b449-7c0a-4995-b3dd-637cec6c0310",
+                "eafe06f7-528d-46a7-bc54-933b16072932",
+                "65cf14c4-4523-4c61-a063-8598b47c4765",
+                "247d6ff8-b07c-4f45-82ec-04d49b5c0d26"
+            ],
+			"collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b"
+		},
+        
+                    
+                    
+                    
+        {
+			"id": "d1325aca-dd49-474a-a381-7fe7af32f01f",
+			"name": "Companies",
+			"folders_order": [],
+			"owner": "1060189",
+            "order" : [
+                "f6ecbd18-c4b5-48a4-8ab1-49022e59b1a2",
+                "0826ca5d-70cd-4d15-85d3-438bc06b4389",
+                "3e08ee55-ebc6-4a52-8843-76c767b296d0",
+                "3d9d7a14-a564-4c6b-9306-b9a31a880c5f"
+            ],
+			"collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b"
+		},
+        
+                    
+                    
+                    
+        {
+			"id": "15cdbf51-f347-4b1b-b18c-1874c5c33274",
+			"name": "FeedbackSessions",
+			"folders_order": [],
+			"owner": "1060189",
+            "order" : [
+                "e2786baa-270f-4c92-8b1a-29e3a677889e",
+                "d350e27e-d71a-40d0-b205-19a5e031ed17",
+                "c76d7665-e072-442c-8a94-9db5469515e2",
+                "d92da4b7-17f7-4889-9114-7a7f9aa94896"
+            ],
+			"collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b"
+		}
+        
+
+	],
+    "requests": [
+    
+                    
+                    
+                    
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "6c1af6d3-0682-45d7-a2c6-8734d847f7ed",
+            "name": "Get Persons",
+            "description": "",
+            "url": "http://localhost:64110/api/Persons?expand=all",
+            "method": "GET",
+            "headers": "Content-Type: application/json\n",
+            "data": "",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "30140980-cb75-44e1-82af-2fd59ad67e68",
+            "responses": [],
+            "version": 2
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "671322b1-92dc-4a0e-abd8-d23b4f17d3c7",
+            "name": "Add Person",
+            "description": "",
+            "url": "http://localhost:64110/api/Persons",
+            "method": "POST",
+            "headers": "Content-Type: application/json\n",
+            "data": "  {\n        \"Name\": \"New Person\",\n        \"Description\": \"\"\n    }",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "30140980-cb75-44e1-82af-2fd59ad67e68",
+            "version": 2,
+            "time": 1511746503557
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "ac53d550-3c6a-4e3c-92fd-c3d1bcf9699f",
+            "name": "Update Person",
+            "description": "",
+            "url": "http://localhost:64110/api/Persons",
+            "method": "PUT",
+            "headers": "Content-Type: application/json\n",
+            "data": "{\n    \"PersonId\": \"00000000-0000-0000-0000-000000000000\",\n    \"Name\": \"Changed Person\",\n    \"Description\": \"changed description\"\n}",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "30140980-cb75-44e1-82af-2fd59ad67e68",
+            "version": 2,
+            "time": 1511747864924
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "403e77c7-c6e7-4e3c-8cd6-53bb15942513",
+            "name": "Delete Person",
+            "description": "",
+            "url": "http://localhost:64110/api/Persons?personId=00000000-0000-0000-0000-000000000000",
+            "method": "DELETE",
+            "headers": "",
+            "data": [], 
+            "dataMode": "params",
+            "timestamp": 0,
+            "folder" : "30140980-cb75-44e1-82af-2fd59ad67e68",
+            "version": 2,
+            "time": 1511747257887
+        },
+        
+                    
+                    
+                    
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "c326b449-7c0a-4995-b3dd-637cec6c0310",
+            "name": "Get Feedbacks",
+            "description": "",
+            "url": "http://localhost:64110/api/Feedbacks?expand=all",
+            "method": "GET",
+            "headers": "Content-Type: application/json\n",
+            "data": "",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "0905862c-134a-4a41-a93c-1f0d2c2a5ba7",
+            "responses": [],
+            "version": 2
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "eafe06f7-528d-46a7-bc54-933b16072932",
+            "name": "Add Feedback",
+            "description": "",
+            "url": "http://localhost:64110/api/Feedbacks",
+            "method": "POST",
+            "headers": "Content-Type: application/json\n",
+            "data": "  {\n        \"Name\": \"New Feedback\",\n        \"Description\": \"\"\n    }",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "0905862c-134a-4a41-a93c-1f0d2c2a5ba7",
+            "version": 2,
+            "time": 1511746503557
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "65cf14c4-4523-4c61-a063-8598b47c4765",
+            "name": "Update Feedback",
+            "description": "",
+            "url": "http://localhost:64110/api/Feedbacks",
+            "method": "PUT",
+            "headers": "Content-Type: application/json\n",
+            "data": "{\n    \"FeedbackId\": \"00000000-0000-0000-0000-000000000000\",\n    \"Name\": \"Changed Feedback\",\n    \"Description\": \"changed description\"\n}",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "0905862c-134a-4a41-a93c-1f0d2c2a5ba7",
+            "version": 2,
+            "time": 1511747864924
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "247d6ff8-b07c-4f45-82ec-04d49b5c0d26",
+            "name": "Delete Feedback",
+            "description": "",
+            "url": "http://localhost:64110/api/Feedbacks?feedbackId=00000000-0000-0000-0000-000000000000",
+            "method": "DELETE",
+            "headers": "",
+            "data": [], 
+            "dataMode": "params",
+            "timestamp": 0,
+            "folder" : "0905862c-134a-4a41-a93c-1f0d2c2a5ba7",
+            "version": 2,
+            "time": 1511747257887
+        },
+        
+                    
+                    
+                    
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "f6ecbd18-c4b5-48a4-8ab1-49022e59b1a2",
+            "name": "Get Companies",
+            "description": "",
+            "url": "http://localhost:64110/api/Companies?expand=all",
+            "method": "GET",
+            "headers": "Content-Type: application/json\n",
+            "data": "",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "d1325aca-dd49-474a-a381-7fe7af32f01f",
+            "responses": [],
+            "version": 2
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "0826ca5d-70cd-4d15-85d3-438bc06b4389",
+            "name": "Add Company",
+            "description": "",
+            "url": "http://localhost:64110/api/Companies",
+            "method": "POST",
+            "headers": "Content-Type: application/json\n",
+            "data": "  {\n        \"Name\": \"New Company\",\n        \"Description\": \"\"\n    }",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "d1325aca-dd49-474a-a381-7fe7af32f01f",
+            "version": 2,
+            "time": 1511746503557
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "3e08ee55-ebc6-4a52-8843-76c767b296d0",
+            "name": "Update Company",
+            "description": "",
+            "url": "http://localhost:64110/api/Companies",
+            "method": "PUT",
+            "headers": "Content-Type: application/json\n",
+            "data": "{\n    \"CompanyId\": \"00000000-0000-0000-0000-000000000000\",\n    \"Name\": \"Changed Company\",\n    \"Description\": \"changed description\"\n}",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "d1325aca-dd49-474a-a381-7fe7af32f01f",
+            "version": 2,
+            "time": 1511747864924
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "3d9d7a14-a564-4c6b-9306-b9a31a880c5f",
+            "name": "Delete Company",
+            "description": "",
+            "url": "http://localhost:64110/api/Companies?companyId=00000000-0000-0000-0000-000000000000",
+            "method": "DELETE",
+            "headers": "",
+            "data": [], 
+            "dataMode": "params",
+            "timestamp": 0,
+            "folder" : "d1325aca-dd49-474a-a381-7fe7af32f01f",
+            "version": 2,
+            "time": 1511747257887
+        },
+        
+                    
+                    
+                    
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "e2786baa-270f-4c92-8b1a-29e3a677889e",
+            "name": "Get FeedbackSessions",
+            "description": "",
+            "url": "http://localhost:64110/api/FeedbackSessions?expand=all",
+            "method": "GET",
+            "headers": "Content-Type: application/json\n",
+            "data": "",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "15cdbf51-f347-4b1b-b18c-1874c5c33274",
+            "responses": [],
+            "version": 2
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "d350e27e-d71a-40d0-b205-19a5e031ed17",
+            "name": "Add FeedbackSession",
+            "description": "",
+            "url": "http://localhost:64110/api/FeedbackSessions",
+            "method": "POST",
+            "headers": "Content-Type: application/json\n",
+            "data": "  {\n        \"Name\": \"New FeedbackSession\",\n        \"Description\": \"\"\n    }",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "15cdbf51-f347-4b1b-b18c-1874c5c33274",
+            "version": 2,
+            "time": 1511746503557
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "c76d7665-e072-442c-8a94-9db5469515e2",
+            "name": "Update FeedbackSession",
+            "description": "",
+            "url": "http://localhost:64110/api/FeedbackSessions",
+            "method": "PUT",
+            "headers": "Content-Type: application/json\n",
+            "data": "{\n    \"FeedbackSessionId\": \"00000000-0000-0000-0000-000000000000\",\n    \"Name\": \"Changed FeedbackSession\",\n    \"Description\": \"changed description\"\n}",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "folder" : "15cdbf51-f347-4b1b-b18c-1874c5c33274",
+            "version": 2,
+            "time": 1511747864924
+        },
+        {
+            "collectionId": "e7e5dc5d-7d5d-4432-b29b-8719e69c794b",
+            "id": "d92da4b7-17f7-4889-9114-7a7f9aa94896",
+            "name": "Delete FeedbackSession",
+            "description": "",
+            "url": "http://localhost:64110/api/FeedbackSessions?feedbacksessionId=00000000-0000-0000-0000-000000000000",
+            "method": "DELETE",
+            "headers": "",
+            "data": [], 
+            "dataMode": "params",
+            "timestamp": 0,
+            "folder" : "15cdbf51-f347-4b1b-b18c-1874c5c33274",
+            "version": 2,
+            "time": 1511747257887
+        }
+        
+    ]
+}

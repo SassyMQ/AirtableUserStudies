@@ -1,0 +1,50 @@
+<ion-header xml:space="preserve">
+  <ion-navbar>
+    <button ion-button="" menuToggle="">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+          <ion-row>
+                <ion-col text-left="">
+                                                    {{ this.parent.person.Name }}
+                                                </ion-col><ion-col text-right="" style="font-size: 0.6em;color: gray;">
+                                                    - FeedbackSessions</ion-col>
+          </ion-row>
+    </ion-title>
+  </ion-navbar>
+</ion-header><ion-content padding="" xml:space="preserve">
+     <div class="center">
+        <p class="ionic-logo"></p>
+    </div>
+
+    <ion-card>
+        
+                <ion-card-header>
+                     FeedbackSessions
+                </ion-card-header>
+                <ion-list>
+                    
+                    <div *ngIf="!feedbackSessions || feedbackSessions.length === 0">
+                        <p style="padding: 1em; font-weight: bold;">
+                            No FeedbackSessions yet.
+                        </p>
+                    </div>
+                    
+                    <div *ngIf="feedbackSessions && feedbackSessions.length > 0">
+                        <button ion-item="" (click)="goToState(FeedbackSessionState, feedbackSession)" *ngFor="let feedbackSession of feedbackSessions">
+                            <ion-icon name="document" item-left=""></ion-icon>
+                            {{ feedbackSession.Name }}
+                        </button>
+                    </div>
+                    
+
+                    <hr />
+
+                    <button ion-item="" (click)="addNewFeedbackSession()">
+                        <ion-icon name="add" item-left=""></ion-icon> New FeedbackSession
+                    </button>
+                </ion-list>
+            
+    </ion-card>
+
+</ion-content>

@@ -1,0 +1,197 @@
+<ion-header xml:space="preserve">
+  <ion-navbar>
+    <button ion-button="" menuToggle="">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+          <ion-row>
+                <ion-col text-left="">
+                                                    {{ person.Name }}
+                                                </ion-col><ion-col text-right="" style="font-size: 0.6em;color: gray;">
+                                                    - Person</ion-col>
+          </ion-row>
+    </ion-title>
+  </ion-navbar>
+</ion-header><ion-content padding="" xml:space="preserve">
+     <div class="center">
+        <p class="ionic-logo"></p>
+    </div>
+
+    <ion-card>
+        
+                <ion-card-header *ngIf="!editMode">
+                    
+                        <ion-item>
+                                <ion-label>Name</ion-label>
+                                <ion-input [readonly]="true" type="text" name="personName" [(ngModel)]="person.Name"></ion-input>
+                                
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>JobRoles</ion-label>
+                                <ion-input type="text" 
+                                                disabled="true" 
+                                                placeholder="JobRoles" 
+                                                name="personJobRolesName" 
+                                                [(ngModel)]="person.JobRoles"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>LinkedInProfile</ion-label>
+                                <ion-input type="text" 
+                                                disabled="true" 
+                                                placeholder="LinkedInProfile" 
+                                                name="personLinkedInProfileName" 
+                                                [(ngModel)]="person.LinkedInProfile"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>FirstName</ion-label>
+                                <ion-input type="text" 
+                                                disabled="true" 
+                                                placeholder="FirstName" 
+                                                name="personFirstNameName" 
+                                                [(ngModel)]="person.FirstName"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>LastName</ion-label>
+                                <ion-input type="text" 
+                                                disabled="true" 
+                                                placeholder="LastName" 
+                                                name="personLastNameName" 
+                                                [(ngModel)]="person.LastName"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>Phone</ion-label>
+                                <ion-input type="text" 
+                                                disabled="true" 
+                                                placeholder="Phone" 
+                                                name="personPhoneName" 
+                                                [(ngModel)]="person.Phone"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>createdTime</ion-label>
+                                <ion-input type="datetime"
+                                                disabled="true" 
+                                                placeholder="createdTime" 
+                                                name="personcreatedTimeName" 
+                                                [(ngModel)]="person.createdTime"></ion-input>
+                            </ion-item>
+                            
+
+                             <ion-row right="">
+                                <ion-col text-right="">   
+                                    <button ion-button="" (click)="editMode = true"><ion-icon name="create"></ion-icon> Edit</button>
+                                </ion-col> 
+                            </ion-row>
+                                            
+                </ion-card-header>
+                    
+                        <div *ngIf="editMode">
+                            <ion-item>
+                                <ion-label>Name</ion-label>
+                                <ion-input type="text" name="personName" [(ngModel)]="person.Name"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>JobRoles</ion-label>
+                                <ion-input type="text" 
+                                                placeholder="JobRoles" 
+                                                name="personJobRolesName" 
+                                                [(ngModel)]="person.JobRoles"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>LinkedInProfile</ion-label>
+                                <ion-input type="text" 
+                                                placeholder="LinkedInProfile" 
+                                                name="personLinkedInProfileName" 
+                                                [(ngModel)]="person.LinkedInProfile"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>FirstName</ion-label>
+                                <ion-input type="text" 
+                                                placeholder="FirstName" 
+                                                name="personFirstNameName" 
+                                                [(ngModel)]="person.FirstName"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>LastName</ion-label>
+                                <ion-input type="text" 
+                                                placeholder="LastName" 
+                                                name="personLastNameName" 
+                                                [(ngModel)]="person.LastName"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>Phone</ion-label>
+                                <ion-input type="text" 
+                                                placeholder="Phone" 
+                                                name="personPhoneName" 
+                                                [(ngModel)]="person.Phone"></ion-input>
+                            </ion-item>
+                            
+                            <ion-item>
+                                <ion-label>createdTime</ion-label>
+                                <ion-input type="datetime"
+                                                placeholder="createdTime" 
+                                                name="personcreatedTimeName" 
+                                                [(ngModel)]="person.createdTime"></ion-input>
+                            </ion-item>
+                            
+                            <ion-row>
+                                <ion-col text-left="">
+                                    <button ion-button="" secondary="" (click)="updatePerson(person)">
+                                        <ion-icon name="checkmark" item-left=""></ion-icon> Ok
+                                    </button>
+                                </ion-col>
+                                <ion-col text-right="">
+                                </ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col text-left="">
+                                    <button ion-button="" secondary="" *ngIf="canDelete"  (click)="deletePerson()">
+                                        <ion-icon name="trash" item-left=""></ion-icon> Delete
+                                    </button>
+                                </ion-col>
+                                <ion-col text-right="">
+                                </ion-col>
+                            </ion-row>
+                        </div>
+                    
+
+                <p>
+                
+                More about {{ person.Name }} can go here...
+                
+
+                
+                </p>
+
+                
+                <ion-card-header>
+                    <hr />
+                </ion-card-header>
+                <ion-list>
+                    
+                        
+                        
+                        <button ion-item="" (click)="goToState(FeedbackSessionsState, person)">
+                            <ion-icon name="list" item-left=""></ion-icon>
+                            FeedbackSessions   
+                            
+                            <small style="font-size: 0.8em; color: gray;">({{ person.FeedbackSessions ? person.FeedbackSessions.length : 0 }})</small>
+                        </button>
+                    
+                </ion-list>
+        
+
+            
+    </ion-card>
+
+</ion-content>

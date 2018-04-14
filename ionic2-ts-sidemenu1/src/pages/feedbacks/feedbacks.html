@@ -1,0 +1,47 @@
+<ion-header xml:space="preserve">
+  <ion-navbar>
+    <button ion-button="" menuToggle="">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+          <ion-row>
+                Feedbacks
+          </ion-row>
+    </ion-title>
+  </ion-navbar>
+</ion-header><ion-content padding="" xml:space="preserve">
+     <div class="center">
+        <p class="ionic-logo"></p>
+    </div>
+
+    <ion-card>
+        
+                <ion-card-header>
+                     Feedbacks
+                </ion-card-header>
+                <ion-list>
+                    
+                    <div *ngIf="!feedbacks || feedbacks.length === 0">
+                        <p style="padding: 1em; font-weight: bold;">
+                            No Feedbacks yet.
+                        </p>
+                    </div>
+                    
+                    <div *ngIf="feedbacks && feedbacks.length > 0">
+                        <button ion-item="" (click)="goToState(FeedbackState, feedback)" *ngFor="let feedback of feedbacks">
+                            <ion-icon name="document" item-left=""></ion-icon>
+                            {{ feedback.Name }}
+                        </button>
+                    </div>
+                    
+
+                    <hr />
+
+                    <button ion-item="" (click)="addNewFeedback()">
+                        <ion-icon name="add" item-left=""></ion-icon> New Feedback
+                    </button>
+                </ion-list>
+            
+    </ion-card>
+
+</ion-content>

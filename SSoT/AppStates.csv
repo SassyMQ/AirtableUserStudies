@@ -1,0 +1,16 @@
+Name,Description,ParentState,IsAbstract,DisplayName,IsCollection,EntityName
+APP_ROOT,A root state all other states derive from,,TRUE,Root
+Home,Home page for the app,APP_ROOT,FALSE,Home
+Feedbacks,Top Level Collection: Feedbacks,APP_ROOT,FALSE,Feedbacks,TRUE,Feedback
+Feedback, ITEM: Feedback,Feedbacks,FALSE,Feedback,FALSE,Feedback
+Companies,Top Level Collection: Companies,APP_ROOT,FALSE,Companies,TRUE,Company
+Company, ITEM: Company,Companies,FALSE,Company,FALSE,Company
+People,  - : People,Company,FALSE,People,TRUE,Person
+Person, ITEM: Person,People,FALSE,Person,FALSE,Person
+FeedbackSessions,  - : FeedbackSessions,Person,FALSE,FeedbackSessions,TRUE,FeedbackSession
+FeedbackSession, ITEM: FeedbackSession,FeedbackSessions,FALSE,FeedbackSession,FALSE,FeedbackSession
+About,A page about the app,APP_ROOT,FALSE,About
+Contact,A contact page for the company,APP_ROOT,FALSE,Contact
+Chat,Chat with a live representative,Contact,FALSE,Chat
+Email,Send an email to a representative,Contact,FALSE,Email
+Call,Get a phone number for your country and or state.,Contact,FALSE,Call

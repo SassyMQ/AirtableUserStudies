@@ -1,0 +1,154 @@
+<Airtable><Entities><Entity>
+        <EntityId>rec0WxqjHfYBv7EJL</EntityId>
+    <Name>Person</Name><DisplayName>Person</DisplayName><AirtableName>People</AirtableName><createdTime>2018-04-14T21:33:22Z</createdTime></Entity><Entity>
+        <EntityId>recNJ64A3bQC299Vr</EntityId>
+    <Name>Feedback</Name><DisplayName>Feedback</DisplayName><AirtableName>Features/Complaints</AirtableName><createdTime>2018-04-14T21:34:13Z</createdTime></Entity><Entity>
+        <EntityId>recctzZ9KNHyX32CH</EntityId>
+    <Name>Company</Name><DisplayName>Company</DisplayName><AirtableName>Companies</AirtableName><createdTime>2018-04-14T21:33:22Z</createdTime></Entity><Entity>
+        <EntityId>recmlgTtHAnZTvxra</EntityId>
+    <Name>FeedbackSession</Name><DisplayName>FeedbackSession</DisplayName><AirtableName>Feedback Session</AirtableName><createdTime>2018-04-14T21:33:22Z</createdTime></Entity></Entities><People><Person>
+        <PersonId>rec04zjEFruvgl4PJ</PersonId>
+    <Name>Alexis Pham</Name><FeedbackSession>rec63Ibfdv6z48vaF</FeedbackSession><FeedbackSession>rec5UC9b5y4ydbmbG</FeedbackSession><JobRoles>Product</JobRoles><Company>recU3K1icuZrc3veu</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Alexis</FirstName><LastName>Pham</LastName><Phone>(444) 444-4444</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>rec7Up8MLCy1CncWa</PersonId>
+    <Name>Peyton Devereaux</Name><FeedbackSession>recY3O0i5p9v9dw1w</FeedbackSession><JobRoles>Engineering</JobRoles><Company>rec3SH7ihu4xZgr4C</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Peyton</FirstName><LastName>Devereaux</LastName><Phone>(222) 222-2222</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>rec9eyeSDx892lrdM</PersonId>
+    <Name>Kelly Sall</Name><FeedbackSession>rec5XF97ajax31p1x</FeedbackSession><JobRoles>IT</JobRoles><Company>rec6TK4gbxbBYdo6E</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Kelly</FirstName><LastName>Sall</LastName><Phone>(111) 111-1111</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>recGVbAlg7H3TewyK</PersonId>
+    <Name>Sandy Hagen</Name><FeedbackSession>recWSDed2p7vadxax</FeedbackSession><JobRoles>Business Analyst</JobRoles><Company>rec6TK4gbxbBYdo6E</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Sandy</FirstName><LastName>Hagen</LastName><Phone>(999) 999-9999</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>recHkaDb7LOazgtnv</PersonId>
+    <Name>Pat Everett</Name><FeedbackSession>recYQL552yYzb4p4G</FeedbackSession><JobRoles>Marketing</JobRoles><Company>rec4RLc37n2x88r8w</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Pat</FirstName><LastName>Everett</LastName><Phone>(777) 777-7777</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>recJIJj6c5An9E95y</PersonId>
+    <Name>Lee Szabo</Name><FeedbackSession>recS2G8fbyYAc3uby</FeedbackSession><JobRoles>Operations</JobRoles><Company>rec1VDd35oaA64o8B</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Lee</FirstName><LastName>Szabo</LastName><Phone>(000) 000-0000</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>recKmtw8ckT7nhsEi</PersonId>
+    <Name>Quinn Nguyen</Name><FeedbackSession>rec4ZO0bhs3v52paI</FeedbackSession><JobRoles>Marketing</JobRoles><Company>recU1A4f2ubxYfucy</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Quinn</FirstName><LastName>Nguyen</LastName><Phone>(888) 888-8888</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>recTkELBeQMhm9FjE</PersonId>
+    <Name>Jess Patel</Name><FeedbackSession>recXPI6d2t6yd2n5J</FeedbackSession><FeedbackSession>recWTA284scx4bpgE</FeedbackSession><JobRoles>Support</JobRoles><Company>recU3K1icuZrc3veu</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Jess</FirstName><LastName>Patel</LastName><Phone>(666) 666-6666</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>recd8fpwPlBavJ2oJ</PersonId>
+    <Name>Harley Holbrook</Name><FeedbackSession>rec6PKaf5j9qb7rby</FeedbackSession><JobRoles>Product</JobRoles><Company>rec3SH7ihu4xZgr4C</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Harley</FirstName><LastName>Holbrook</LastName><Phone>(555) 555-5555</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>recgvganALTn21vml</PersonId>
+    <Name>Robin Jaffe</Name><FeedbackSession>rec3SDe3bo3yYaw4A</FeedbackSession><JobRoles>Product</JobRoles><Company>rec6TK4gbxbBYdo6E</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Robin</FirstName><LastName>Jaffe</LastName><Phone>(333) 333-3333</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person><Person>
+        <PersonId>reclkfineMvdbG6N5</PersonId>
+    <Name>Skyler Xu</Name><FeedbackSession>recR4J1acjcBdckeE</FeedbackSession><JobRoles>Engineering</JobRoles><Company>rec1VDd35oaA64o8B</Company><LinkedInProfile>https://www.linkedin.com/fakeaddress</LinkedInProfile><FirstName>Skyler</FirstName><LastName>Xu</LastName><Phone>(111) 111-1111</Phone><createdTime>2016-05-16T23:19:23Z</createdTime></Person></People><FeaturesComplaints><Feedback>
+        <FeedbackId>rec4WGefhq5A73vcB</FeedbackId>
+    <Name>Large table support</Name><FeedbackSession>rec5XF97ajax31p1x</FeedbackSession><Sessions>1</Sessions><createdTime>2014-09-25T23:40:57Z</createdTime></Feedback><Feedback>
+        <FeedbackId>rec5PI5e5o7o68new</FeedbackId>
+    <Name>Slow loading time</Name><FeedbackSession>recY3O0i5p9v9dw1w</FeedbackSession><FeedbackSession>rec3SDe3bo3yYaw4A</FeedbackSession><Sessions>2</Sessions><createdTime>2014-07-16T00:58:30Z</createdTime></Feedback><Feedback>
+        <FeedbackId>recRZNa89kbu26ufF</FeedbackId>
+    <Name>Mobile app</Name><FeedbackSession>recXPI6d2t6yd2n5J</FeedbackSession><FeedbackSession>recR4J1acjcBdckeE</FeedbackSession><Sessions>2</Sessions><createdTime>2014-07-16T00:17:01Z</createdTime></Feedback><Feedback>
+        <FeedbackId>recTPK7ccs3CcaxaE</FeedbackId>
+    <Name>Inline document previews</Name><FeedbackSession>rec5UC9b5y4ydbmbG</FeedbackSession><FeedbackSession>recXPI6d2t6yd2n5J</FeedbackSession><FeedbackSession>recR4J1acjcBdckeE</FeedbackSession><Sessions>3</Sessions><createdTime>2014-07-16T00:17:01Z</createdTime></Feedback><Feedback>
+        <FeedbackId>recUPA853kbx27paH</FeedbackId>
+    <Name>Importing spreadsheets</Name><FeedbackSession>rec63Ibfdv6z48vaF</FeedbackSession><Sessions>1</Sessions><createdTime>2014-09-25T23:40:43Z</createdTime></Feedback><Feedback>
+        <FeedbackId>recUSNb63m0t17ldI</FeedbackId>
+    <Name>Better version control</Name><FeedbackSession>recWSDed2p7vadxax</FeedbackSession><FeedbackSession>rec4ZO0bhs3v52paI</FeedbackSession><FeedbackSession>rec63Ibfdv6z48vaF</FeedbackSession><Sessions>3</Sessions><createdTime>2014-07-16T00:17:01Z</createdTime></Feedback><Feedback>
+        <FeedbackId>recWUF5bhr4x1ao8A</FeedbackId>
+    <Name>Color coding</Name><FeedbackSession>recYQL552yYzb4p4G</FeedbackSession><Sessions>1</Sessions><createdTime>2014-09-25T23:41:25Z</createdTime></Feedback><Feedback>
+        <FeedbackId>recWXB2i7ndC29kcu</FeedbackId>
+    <Name>Themes and customization</Name><FeedbackSession>recWTA284scx4bpgE</FeedbackSession><Sessions>1</Sessions><createdTime>2014-09-25T23:40:42Z</createdTime></Feedback><Feedback>
+        <FeedbackId>recWYNe87p7w2ev9x</FeedbackId>
+    <Name>Better search</Name><FeedbackSession>recS2G8fbyYAc3uby</FeedbackSession><FeedbackSession>rec6PKaf5j9qb7rby</FeedbackSession><Sessions>2</Sessions><createdTime>2014-09-25T23:41:08Z</createdTime></Feedback></FeaturesComplaints><Companies><Company>
+        <CompanyId>rec1VDd35oaA64o8B</CompanyId>
+    <Name>Halibutron</Name><CompanySize>1000+</CompanySize><People>recJIJj6c5An9E95y</People><People>reclkfineMvdbG6N5</People><Industry>Energy</Industry><Logo>
+        <LogoId>att12fT5Le33ykpDr</LogoId>
+    <url>https://dl.airtable.com/lrZvZ8HLQfGEefudc0hv_Halibutron.png</url><filename>Halibutron.png</filename><size>38505</size><type>image/png</type><thumbnails><small><url>https://dl.airtable.com/LmbUuuOhTP6iLHJVIbek_small_Halibutron.png</url><width>50</width><height>36</height></small><large><url>https://dl.airtable.com/DG7S1EbNRnKGn7xgEQR5_large_Halibutron.png</url><width>256</width><height>183</height></large></thumbnails></Logo><About>An American multinational corporation headquartered in Texas, with many subsidiaries. The majority of its business relates to petroleum and natural gas extraction.</About><createdTime>2014-07-16T00:16:58Z</createdTime></Company><Company>
+        <CompanyId>rec3SH7ihu4xZgr4C</CompanyId>
+    <Name>FireBasket</Name><CompanySize>0-24</CompanySize><People>recd8fpwPlBavJ2oJ</People><People>rec7Up8MLCy1CncWa</People><Industry>Consumer Goods</Industry><Industry>Technology</Industry><Logo>
+        <LogoId>att0V1gR9nYmak42r</LogoId>
+    <url>https://dl.airtable.com/IvRy9XQXma6zEGxoLfuQ_firebasket.png</url><filename>firebasket.png</filename><size>134563</size><type>image/png</type><thumbnails><small><url>https://dl.airtable.com/iI8InjzdQ4a1GimbPadg_small_firebasket.png</url><width>36</width><height>36</height></small><large><url>https://dl.airtable.com/vl7CHszORwiAmLxCHzTw_large_firebasket.png</url><width>256</width><height>256</height></large></thumbnails></Logo><About>FireBasket is an on-demand hot sauce delivery service that brings you hot sauce wherever you want, whenever you wantâ€”customized to your exact taste buds. No longer will you have to carry hot sauce in your bag.</About><createdTime>2014-07-23T00:37:59Z</createdTime></Company><Company>
+        <CompanyId>rec4RLc37n2x88r8w</CompanyId>
+    <Name>Hot Take Media Group</Name><CompanySize>200-999</CompanySize><People>recHkaDb7LOazgtnv</People><Industry><![CDATA[Media & Advertising]]></Industry><Logo>
+        <LogoId>attj8tayrN6kl0Ozo</LogoId>
+    <url>https://dl.airtable.com/k5kZTmqpS6u1EjvC02Dp_HotTake2.png</url><filename>HotTake2.png</filename><size>45639</size><type>image/png</type><thumbnails><small><url>https://dl.airtable.com/llxB8MbFQgWmWMupuYS4_small_HotTake2.png</url><width>36</width><height>36</height></small><large><url>https://dl.airtable.com/TNZfLZbkRfqfem8uGTWN_large_HotTake2.png</url><width>256</width><height>256</height></large></thumbnails></Logo><About>An online social news aggregator and listicle production enterprise.</About><createdTime>2014-09-25T23:57:10Z</createdTime></Company><Company>
+        <CompanyId>rec6TK4gbxbBYdo6E</CompanyId>
+    <Name>Self-employed</Name><CompanySize>0-24</CompanySize><People>rec9eyeSDx892lrdM</People><People>recgvganALTn21vml</People><People>recGVbAlg7H3TewyK</People><About>Be your own boss.</About><createdTime>2014-07-16T00:16:58Z</createdTime></Company><Company>
+        <CompanyId>recU1A4f2ubxYfucy</CompanyId>
+    <Name><![CDATA[Lyons, Tiger & Behr]]></Name><CompanySize>1000+</CompanySize><People>recKmtw8ckT7nhsEi</People><Industry><![CDATA[Media & Advertising]]></Industry><Logo>
+        <LogoId>att3mJrQpA2GxDppL</LogoId>
+    <url>https://dl.airtable.com/Aay316jyRViFHM4DVGNd_Lyons%2C%20Tiger%20%26%20Behr.png</url><filename><![CDATA[Lyons, Tiger & Behr.png]]></filename><size>213896</size><type>image/png</type><thumbnails><small><url>https://dl.airtable.com/HGShq5FCSyONF77oPXl9_small_Lyons%2C%20Tiger%20%26%20Behr.png</url><width>92</width><height>36</height></small><large><url>https://dl.airtable.com/399NmHhQRtiLCiCEzz6Q_large_Lyons%2C%20Tiger%20%26%20Behr.png</url><width>256</width><height>100</height></large></thumbnails></Logo><About>A global, New-York based advertising agency which was responsible for many of the 20th century's most iconic advertising campaigns.</About><createdTime>2014-07-23T00:38:03Z</createdTime></Company><Company>
+        <CompanyId>recU3K1icuZrc3veu</CompanyId>
+    <Name>Triaria</Name><CompanySize>1000+</CompanySize><People>recTkELBeQMhm9FjE</People><People>rec04zjEFruvgl4PJ</People><Industry>Finance</Industry><Logo>
+        <LogoId>attx7vmC3BsBP5xWR</LogoId>
+    <url>https://dl.airtable.com/CzVZHP0MRxmEwiwHE6xS_triaria.png</url><filename>triaria.png</filename><size>39786</size><type>image/png</type><thumbnails><small><url>https://dl.airtable.com/kMbnODrKRhyezZLx3vpW_small_triaria.png</url><width>36</width><height>36</height></small><large><url>https://dl.airtable.com/MqKd6RpyTaihXAC7btFK_large_triaria.png</url><width>256</width><height>256</height></large></thumbnails></Logo><About>A multinational investment banking firm providing asset management, securities, and other financial services to large businesses.</About><createdTime>2014-07-16T00:16:58Z</createdTime></Company></Companies><FeedbackSessions><FeedbackSession>
+        <FeedbackSessionId>rec3SDe3bo3yYaw4A</FeedbackSessionId>
+    <Notes>User flow: Right-clicked on tree, selected Reports; sent to Reports; right-clicked on the WAN product icon in the Filters section; then used Reports menu to select WAN Availability report. Result: Success with issues.TOT: 125 seconds.Analysis: He assumed that he could select a particular network segment on to which to run the WAN report, but since the tree was hidden in Reports, he tried to click the WAN filter button. This was reinforced by being able to right-click on the treeâ€”he thought he was running the report on just that element. When presented with the concept of business views (custom trees), he said that would satisfy his need for running reports on discrete network segments</Notes><PersonInterviewed>recgvganALTn21vml</PersonInterviewed><Date>2018-05-28</Date><FeaturesRequestedComplaintsMentioned>rec5PI5e5o7o68new</FeaturesRequestedComplaintsMentioned><mm>1080</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>1</OverallFeedbackScore><Name>Robin Jaffe, Initial Interview</Name><createdTime>2014-07-16T00:47:30Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>rec4ZO0bhs3v52paI</FeedbackSessionId>
+    <Notes>Had already visited Reports so he went directly there and correctly selected the WAN Availability report.</Notes><PersonInterviewed>recKmtw8ckT7nhsEi</PersonInterviewed><Date>2018-05-24</Date><FeaturesRequestedComplaintsMentioned>recUSNb63m0t17ldI</FeaturesRequestedComplaintsMentioned><mm>1800</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>5</OverallFeedbackScore><Name>Quinn Nguyen, Initial Interview</Name><createdTime>2014-07-16T00:47:30Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>rec5UC9b5y4ydbmbG</FeedbackSessionId>
+    <Notes>Clicked to Reports; selected WAN Availability report, ran it; commented that if the report ran more than a minute, she would click the â€œNotify on Completionâ€ button. Result: Success. TOT: 20 seconds.</Notes><PersonInterviewed>rec04zjEFruvgl4PJ</PersonInterviewed><Date>2018-03-30</Date><FeaturesRequestedComplaintsMentioned>recTPK7ccs3CcaxaE</FeaturesRequestedComplaintsMentioned><mm>1800</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>1</OverallFeedbackScore><Name>Alexis Pham, Initial Interview</Name><createdTime>2014-07-16T00:37:13Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>rec5XF97ajax31p1x</FeedbackSessionId>
+    <Notes>Right-clicked on tree and looked at Reports menu; selected Dashboard, clicked WAN tab; read ticket list, confused about non-date order; went back to tree and right-clicked to Reports; ran WAN Availability, cancelled; went to Network Details; end. Result: Success with issues.Time on task (TOT): 325 seconds. 
+
+Analysis: Since he'd never used a portal as part of his job, he was unclear on the purpose of the site and tended to click around randomly. He still judged correctly that the network was doing well in general.</Notes><PersonInterviewed>rec9eyeSDx892lrdM</PersonInterviewed><Date>2018-05-14</Date><FeaturesRequestedComplaintsMentioned>rec4WGefhq5A73vcB</FeaturesRequestedComplaintsMentioned><mm>1920</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>2</OverallFeedbackScore><Name>Kelly Sall, Initial Interview</Name><createdTime>2014-07-16T00:47:30Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>rec63Ibfdv6z48vaF</FeedbackSessionId>
+    <Notes>See screenshots for some confusing interaction flows encountered by Lauren during the live demo session.</Notes><Attachments>
+        <AttachmentsId>att17223c9bfa2e9e</AttachmentsId>
+    <url>https://dl.airtable.com/o934oGFyTSuHjw7tjz5R_Screen%20Shot%202014-07-21%20at%206.42.21%20PM.png</url><filename>Screen Shot 2014-07-21 at 6.42.21 PM.png</filename><size>1133023</size><type>image/png</type><thumbnails><small><url>https://dl.airtable.com/Xme1HsEQdqX2A302RyJQ_small_Screen%20Shot%202014-07-21%20at%206.42.21%20PM.png</url><width>58</width><height>36</height></small><large><url>https://dl.airtable.com/jT0DxlCTf6OfGzCINpBw_large_Screen%20Shot%202014-07-21%20at%206.42.21%20PM.png</url><width>256</width><height>160</height></large></thumbnails></Attachments><PersonInterviewed>rec04zjEFruvgl4PJ</PersonInterviewed><Date>2018-04-03</Date><FeaturesRequestedComplaintsMentioned>recUPA853kbx27paH</FeaturesRequestedComplaintsMentioned><FeaturesRequestedComplaintsMentioned>recUSNb63m0t17ldI</FeaturesRequestedComplaintsMentioned><mm>1560</mm><SessionType>Followup Session</SessionType><OverallFeedbackScore>4</OverallFeedbackScore><Name>Alexis Pham, Followup Session</Name><createdTime>2014-07-16T00:48:35Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>rec6PKaf5j9qb7rby</FeedbackSessionId>
+    <Notes>Expanded network tree, clicked on red element; sent to Network Details, examined the list of open tickets, "Just Austin has problems, HQ is up with problems." Correct. Result: Success.TOT: 60 seconds</Notes><PersonInterviewed>recd8fpwPlBavJ2oJ</PersonInterviewed><Date>2018-05-16</Date><FeaturesRequestedComplaintsMentioned>recWYNe87p7w2ev9x</FeaturesRequestedComplaintsMentioned><mm>1860</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>3</OverallFeedbackScore><Name>Harley Holbrook, Initial Interview</Name><createdTime>2014-07-16T00:47:30Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>recR4J1acjcBdckeE</FeedbackSessionId>
+    <Notes>Clicked Home/Dashboard, viewed Combined tab; saw the Health icon but interpreted the arrow pointing to the current health level as the desired health level (opposite of design); commented that she wasnâ€™t sure of the context of health, what was the definition, and that â€œinfrastructureâ€ meant â€œeverythingâ€ to her regardless of tab context; after clicking to several other Dashboard tabs she noticed the health level arrow changing and corrected her interpretation, commented that the tickets listed in each tab didnâ€™t seem to match tab names; correctly judged network health.</Notes><PersonInterviewed>reclkfineMvdbG6N5</PersonInterviewed><Date>2018-05-21</Date><FeaturesRequestedComplaintsMentioned>recTPK7ccs3CcaxaE</FeaturesRequestedComplaintsMentioned><FeaturesRequestedComplaintsMentioned>recRZNa89kbu26ufF</FeaturesRequestedComplaintsMentioned><mm>1620</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>4</OverallFeedbackScore><Name>Skyler Xu, Initial Interview</Name><createdTime>2014-07-16T00:47:30Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>recS2G8fbyYAc3uby</FeedbackSessionId>
+    <Notes><![CDATA[Give a high priority to re-implementing the legacy Inventory screen in order to eliminate confusing navigation
+
+RenameÂ SearchÂ tab toÂ SearchesÂ to get users to see the search functionality as part of the portal data, not the portal itself (see Task 9 details below) (DONE)
+
+Fix icon/feedback for grid column sorting (DONE)
+
+Add more right-click links to the network treeâ€”Support tab, Report a Problem form, Request Service form
+
+Fix look & feel of tree filter buttons so they do not resemble shortcut links
+
+Add default â€œNo ticketsâ€ text to Dashboard ticket lists (see Task 9/User 4 note below)
+
+Explore the possibility of adding a Search Trouble Tickets link on the Trouble Tickets sub-tab
+]]></Notes><PersonInterviewed>recJIJj6c5An9E95y</PersonInterviewed><Date>2018-05-02</Date><FeaturesRequestedComplaintsMentioned>recWYNe87p7w2ev9x</FeaturesRequestedComplaintsMentioned><mm>1560</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>1</OverallFeedbackScore><Name>Lee Szabo, Initial Interview</Name><createdTime>2014-07-16T00:47:30Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>recWSDed2p7vadxax</FeedbackSessionId>
+    <Notes>Expanded network tree manually, clicked on Austin (red); viewed ticket list but did not click for details; clicked on Home, read recent ticket list; correctly identified which sites were up, with and without problems as well as differentiating between fail and caution tickets. Result: Success. TOT: 95 seconds.</Notes><PersonInterviewed>recGVbAlg7H3TewyK</PersonInterviewed><Date>2018-04-23</Date><FeaturesRequestedComplaintsMentioned>recUSNb63m0t17ldI</FeaturesRequestedComplaintsMentioned><mm>720</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>3</OverallFeedbackScore><Name>Sandy Hagen, Initial Interview</Name><createdTime>2014-07-16T00:47:30Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>recWTA284scx4bpgE</FeedbackSessionId>
+    <Notes><![CDATA[RenameÂ SearchÂ tab toÂ SearchesÂ to get users to see the search functionality as part of the portal data, not the portal itself (see Task 9 details below) (DONE)
+
+Fix icon/feedback for grid column sorting (DONE)
+
+Add more right-click links to the network tree--Support tab, Report a Problem form, Request Service form
+
+Fix look & feel of tree filter buttons so they do not resemble shortcut links
+
+Add default â€œNo ticketsâ€ text to Dashboard ticket lists (see Task 9/User 4 note below)
+
+Explore the possibility of adding a Search Trouble Tickets link on the Trouble Tickets sub-tab]]></Notes><PersonInterviewed>recTkELBeQMhm9FjE</PersonInterviewed><Date>2018-04-06</Date><FeaturesRequestedComplaintsMentioned>recWXB2i7ndC29kcu</FeaturesRequestedComplaintsMentioned><mm>1500</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>2</OverallFeedbackScore><Name>Jess Patel, Initial Interview</Name><createdTime>2014-07-16T00:37:13Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>recXPI6d2t6yd2n5J</FeedbackSessionId>
+    <Notes><![CDATA[Fix icon/feedback for grid column sorting
+
+Add more right-click links to the network tree--Support tab, Report a Problem form, Request Service form
+
+Fix look & feel of tree filter buttons so they do not resemble shortcut links
+
+Add default â€œNo ticketsâ€ text to Dashboard ticket lists (see Task 9/User 4 note below)
+
+Explore the possibility of adding a Search Trouble Tickets link on the Trouble Tickets sub-tab]]></Notes><PersonInterviewed>recTkELBeQMhm9FjE</PersonInterviewed><Date>2018-04-11</Date><FeaturesRequestedComplaintsMentioned>recRZNa89kbu26ufF</FeaturesRequestedComplaintsMentioned><FeaturesRequestedComplaintsMentioned>recTPK7ccs3CcaxaE</FeaturesRequestedComplaintsMentioned><mm>2460</mm><SessionType>Followup Session</SessionType><OverallFeedbackScore>3</OverallFeedbackScore><Name>Jess Patel, Followup Session</Name><createdTime>2014-07-16T00:51:03Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>recY3O0i5p9v9dw1w</FeedbackSessionId>
+    <Notes><![CDATA[Add more right-click links to the network tree--Support tab, Report a Problem form, Request Service form
+
+Fix look & feel of tree filter buttons so they do not resemble shortcut links
+
+Add default â€œNo ticketsâ€ text to Dashboard ticket lists (see Task 9/User 4 note below)
+
+Explore the possibility of adding a Search Trouble Tickets link on the Trouble Tickets sub-tab
+
+Revisit Dashboard iconography to see if thereâ€™s a better way of displaying status
+
+Even though business views was not part of this test, it came up several times in the context of reports and status. Add an interface for creating business views as soon as possible since it is clear that business views will greatly increase the portal functionality for all sets of users.
+
+Consider making the Dashboard sub-tab the default home screen (discuss with Business)]]></Notes><PersonInterviewed>rec7Up8MLCy1CncWa</PersonInterviewed><Date>2018-04-09</Date><FeaturesRequestedComplaintsMentioned>rec5PI5e5o7o68new</FeaturesRequestedComplaintsMentioned><mm>3000</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>4</OverallFeedbackScore><Name>Peyton Devereaux, Initial Interview</Name><createdTime>2014-07-16T00:37:13Z</createdTime></FeedbackSession><FeedbackSession>
+        <FeedbackSessionId>recYQL552yYzb4p4G</FeedbackSessionId>
+    <Notes>Explore the possibility of adding a Search Trouble Tickets link on the Trouble Tickets sub-tab
+
+Revisit Dashboard iconography to see if thereâ€™s a better way of displaying status
+
+Even though business views was not part of this test, it came up several times in the context of reports and status. Add an interface for creating business views as soon as possible since it is clear that business views will greatly increase the portal functionality for all sets of users.
+
+Consider making the Dashboard sub-tab the default home screen (discuss with Business)
+
+
+
+</Notes><PersonInterviewed>recHkaDb7LOazgtnv</PersonInterviewed><Date>2018-04-13</Date><FeaturesRequestedComplaintsMentioned>recWUF5bhr4x1ao8A</FeaturesRequestedComplaintsMentioned><mm>1080</mm><SessionType>Initial Interview</SessionType><OverallFeedbackScore>5</OverallFeedbackScore><Name>Pat Everett, Initial Interview</Name><createdTime>2014-07-16T00:47:28Z</createdTime></FeedbackSession></FeedbackSessions></Airtable>

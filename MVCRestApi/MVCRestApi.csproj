@@ -179,6 +179,22 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\api\CompaniesController.cs" />
+    <Compile Include="Controllers\api\CompaniesController.designer.cs">
+      <DependentUpon>CompaniesController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\api\FeedbacksController.cs" />
+    <Compile Include="Controllers\api\FeedbacksController.designer.cs">
+      <DependentUpon>FeedbacksController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\api\FeedbackSessionsController.cs" />
+    <Compile Include="Controllers\api\FeedbackSessionsController.designer.cs">
+      <DependentUpon>FeedbackSessionsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\api\PersonsController.cs" />
+    <Compile Include="Controllers\api\PersonsController.designer.cs">
+      <DependentUpon>PersonsController.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
